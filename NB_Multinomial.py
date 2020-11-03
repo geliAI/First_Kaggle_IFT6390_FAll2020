@@ -1,11 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[34]:
 
 
 import numpy as np
-# from scipy.sparse import csr_matrix
 
 class CountVectorizer():
     def __init__(self,corpus,max_df=1.0,minLen=2):
